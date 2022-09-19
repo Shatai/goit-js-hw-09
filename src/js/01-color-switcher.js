@@ -1,4 +1,3 @@
-
 const btnStart = document.querySelector('[data-start]');
 const btnStop = document.querySelector('[data-stop]');
 const bodyBackground = document.querySelector('body');
@@ -19,7 +18,7 @@ function startChangeColors(e) {
 
 function stoptChangeColors(e) {
   clearInterval(timerId);
-  // e.target.disabled = true;
+  e.target.disabled = true;
   btnStart.disabled = false;
 }
 
