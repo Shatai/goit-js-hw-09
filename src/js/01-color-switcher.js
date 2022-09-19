@@ -19,7 +19,7 @@ function startChangeColors(e) {
 
 function stoptChangeColors(e) {
   clearInterval(timerId);
-  e.target.disabled = true;
+  // e.target.disabled = true;
   btnStart.disabled = false;
 }
 
